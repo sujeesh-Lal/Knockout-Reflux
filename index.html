@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>Knockout reflux</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h3>TODO Items</h3>
+    <ul data-bind='foreach: tasks'>
+      <li data-bind='text: name'></li>
+    </ul>
+    <form data-bind="submit: submit">
+      <h3>Add Task</h3>
+      <label>Task Name</label>
+      <input type="text" data-bind="value: taskName" />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+  <script src="/scripts/bundle.js"></script>
+</html>
