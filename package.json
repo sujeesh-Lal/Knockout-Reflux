@@ -1,14 +1,14 @@
 {
-  "name": "react-hot-boilerplate",
+  "name": "knockout-boilerplate",
   "version": "1.0.0",
-  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "description": "Boilerplate for knockout project",
   "scripts": {
     "start": "node server.js",
     "build": "NODE_ENV=production webpack -p"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rikukissa/react-webpack-template"
+    "url": "https://github.com/sujeesh-Lal/Knockout-Reflux"
   },
   "keywords": [
     "react",
@@ -22,12 +22,12 @@
     "edit",
     "webpack"
   ],
-  "author": "Riku Rouvila <riku.rouvila@gmail.com> (http://github.com/rikukissa)",
+  "author": "Sujeesh Lal <sujeeshdl@gmail.com> (https://github.com/sujeesh-Lal)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rikukissa/react-webpack-template/issues"
+    "url": "https://github.com/sujeesh-Lal/Knockout-Reflux/issues"
   },
-  "homepage": "https://github.com/rikukissa/react-webpack-template",
+  "homepage": "https://github.com/sujeesh-Lal/Knockout-Reflux",
   "devDependencies": {
     "babel-core": "^4.7.4",
     "babel-loader": "^4.1.0",
